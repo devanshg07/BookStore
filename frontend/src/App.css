@@ -1,0 +1,129 @@
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: clamp(2.25rem, 4vw, 3rem);
+}
+
+header p {
+  color: #475569;
+  margin-top: 0.5rem;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+form h2 {
+  margin: 0 0 0.5rem;
+}
+
+label {
+  display: grid;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  background: #f8fafc;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.95rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: #4338ca;
+  color: white;
+}
+
+button.secondary {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+button.danger {
+  background: #ef4444;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #eef2ff;
+  color: #3730a3;
+  margin-top: 1rem;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.book-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.95rem;
+  background: #f8fafc;
+}
+
+.book-list li div {
+  min-width: 0;
+}
+
+.book-list strong {
+  display: block;
+  font-size: 1.05rem;
+}
+
+.book-list p {
+  margin: 0.35rem 0 0;
+  color: #475569;
+}
+
+.book-list span {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.row-actions {
+  display: flex;
+  gap: 0.5rem;
+}
